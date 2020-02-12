@@ -2,7 +2,7 @@
   <ul>
     <li v-for="(value) in tasks" :key="value">
       <p v-if="value.isCompleted === true" class="greenText">ID: {{ value.id }} | Description: {{ value.description }} | Completed </p>
-      <p v-else class="redText">ID: {{ value.id }} | Description: {{ value.description }} |  On Progress </p>
+      <p v-else class="redText">ID: {{ value.id }} | Description: {{ value.description }} | On Progress </p>
     </li>
   </ul>
 </template>
